@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<manifest identifier="RusticiSoftwareSCORMDriverTemplate" version="1" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0">
+
+      <!--****** Title ******-->
+      <title>ASME RFP</title>
+
+      <item identifier="i1" identifierref="r1" isvisible="true">
+
+        <!--****** Title ******-->
+
+        <title>ASME RFP</title>
+        <adlcp:masteryscore>100</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormcontent/index.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+      <file href="scormcontent/assets/62757938530932dd6c6cbb89-albert_whats_next_transparent.png" />
+      <file href="scormcontent/assets/627b7f0598376d652a68c58b-Digital-Learning-Hero-Video_1.mp4" />
+      <file href="scormcontent/assets/627b7f0598376d652a68c58b.png" />
+      <file href="scormcontent/assets/627b830098376d875168c5a3-top-separator_ASME.png" />
+      <file href="scormcontent/assets/627b851098376d23cf68c5eb-top-separator_ASME.png" />
+      <file href="scormcontent/assets/627b85bd98376de6ae68c5ef-shot-red-darts-arrows-target-center-blue-sky-wall.png" />
+      <file href="scormcontent/assets/627b904a98376da70068c621-19268.png" />
+      <file href="scormcontent/assets/627b986798376d46d668c640-thanks.png" />
+      <file href="scormcontent/assets/627be542894b1bd93cb9d268ipsam.png" />
+      <file href="scormcontent/assets/627be5b9b2c07b4575978102at.png" />
+      <file href="scormcontent/assets/627be68e894b1bea4db9d26bat.png" />
+      <file href="scormcontent/assets/627be9fbb2c07b44ec978176aliquid.png" />
+      <file href="scormcontent/assets/627be9fbb2c07b44ec978176numquam.png" />
+      <file href="scormcontent/assets/627bea739756930d9a8ef8b9earum.png" />
+      <file href="scormcontent/assets/627bee4c97569369648ef8cavoluptas.png" />
+      <file href="scormcontent/assets/627bf67f894b1b645db9d29fquasi.png" />
+      <file href="scormcontent/assets/627d198a894b1b4022b9d4b1-Slide-2_2.mp3" />
+      <file href="scormcontent/assets/627d1dfa98376d94ee68cc99-Slide-2_1.mp3" />
+      <file href="scormcontent/assets/627d1eb898376d20e568cc9c-Slide-1.mp3" />
+      <file href="scormcontent/assets/627d234d98376d057968ccab-Slide-3.mp3" />
+      <file href="scormcontent/assets/627d23f4b2c07b1df09784ec-Slide-4.mp3" />
+      <file href="scormcontent/assets/627d241b894b1b4b5db9d51f-Slide-5.mp3" />
+      <file href="scormcontent/assets/627d250098376d53ba68ccb0-Untitled-89708.png" />
+      <file href="scormcontent/assets/627d3dc8894b1b5c63b9d5d1-ASME_Cover_Image.png" />
+      <file href="scormcontent/assets/627d5b8a894b1b7f13b9d623-Slide-3-1080p-220512.mp4" />
+      <file href="scormcontent/assets/627d5b8a894b1b7f13b9d623.png" />
+      <file href="scormcontent/data.js" />
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/static/css/base-theme.css" />
+      <file href="scormcontent/static/css/course.external.css" />
+      <file href="scormcontent/static/css/course.module.css" />
+      <file href="scormcontent/static/css/course.vendor.css" />
+      <file href="scormcontent/static/css/flash/1.20.14/Flashcards.css" />
+      <file href="scormcontent/static/css/tabsacc/1.20.11/TabsAccordion.css" />
+      <file href="scormcontent/static/js/course.external.js" />
+      <file href="scormcontent/static/js/course.module.js" />
+      <file href="scormcontent/static/js/course.vendor.js" />
+      <file href="scormcontent/static/js/flash/1.20.14/Flashcards.js" />
+      <file href="scormcontent/static/js/tabsacc/1.20.11/TabsAccordion.js" />
+      <file href="scormcontent/static/web-fonts-with-css/css/all.min.css" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-light-300.ttf" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-light-300.woff" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-light-300.woff2" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-regular-400.ttf" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-regular-400.woff" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-regular-400.woff2" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-solid-900.ttf" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-solid-900.woff" />
+      <file href="scormcontent/static/web-fonts-with-css/webfonts/fa-solid-900.woff2" />
+    </resource>
+  </resources>
+</manifest>
